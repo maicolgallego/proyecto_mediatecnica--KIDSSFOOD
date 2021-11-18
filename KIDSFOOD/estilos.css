@@ -1,0 +1,171 @@
+header {
+    background: rgba(7, 109, 192, 0.904);
+    border: 5px solid #12b10c;
+    border-radius: 25px;
+    padding: 8px;
+    text-emphasis: center;
+}
+
+body {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Forte Black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+li {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter; 
+}
+
+div {
+    background-color: chartreuse;
+    float: left;
+    border: 10px dashed rgb(6, 248, 248);
+    width: 520px;
+    height: 160px;
+    overflow: auto;
+}
+/*header, section, footer, aside, nav, article, div, hgroup {border: 1px solid black; display: block; }*/
+
+.menu {
+    background: rgba(13, 223, 30, 0.781);
+    color: black
+
+}
+
+.menu li {
+    list-style: none;
+    padding: 20px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+article {
+    background-color: rgba(21, 132, 196, 0.87);
+    border: #41ff07;
+}
+
+audio {
+    margin: 18px auto;
+}
+
+img {
+    Display: flex;
+    float: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(3, 81, 250);
+    border: 10px solid #086f9e;
+    color: rgba(2, 0, 0, 0.904);
+}
+img.izquierda{
+    float:left;
+    width:"20%" 
+}
+img.derecha {
+    float: right;
+    width:"20%" 
+  }
+
+table {
+    background: rgb(3, 81, 250);
+    border: 10px solid #149e08;
+    color: rgba(2, 0, 0, 0.904);
+    float: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    float: left;
+}
+
+a:link {
+    color: rgb(0, 102, 255);
+}
+
+a:visited {
+    color: rgb(1, 9, 12);
+}
+
+a:hover {
+    background-color: rgb(255, 214, 255);
+}
+
+a:active {
+    background-color: rgb(255, 214, 255);
+}
+
+a:focus {
+    background-color: rgb(26, 118, 223);
+}
+
+.KILO {
+    background: rgba(18, 218, 45, 0.801);
+    border: 10px solid #0882d3;
+    color: rgba(3, 19, 32, 0.904);
+    padding: 30px;
+    width: 94%;
+    float: center;
+    margin-top: 20px;
+    
+}
+FIGURE {
+    background: rgba(18, 218, 45, 0.801);
+    border: 10px solid #0882d3;
+    color: rgba(3, 19, 32, 0.904);
+    padding: 40px;
+    width: 90%;
+    float: center;
+    margin-top: 20px;
+}
+
+.comida {
+    padding: 15px;
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+} 
+
+.columna {
+    background: rgba(10, 120, 245, 0.575);
+    border: 10px solid #07ff45;
+    color: rgb(236, 236, 236);
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 21px;
+    border-radius: 40px;
+}
+
+
+footer {
+    background: rgb(13, 124, 250);
+    color: white;
+    padding: 15px
+}
+
+.pie {
+    clear: all;
+}
+    

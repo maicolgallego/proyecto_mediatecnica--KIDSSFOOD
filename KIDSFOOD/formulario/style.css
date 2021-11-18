@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.limpiar{
+	clear: both;
+}
+#contenedor{
+	margin:auto;
+	margin-top: 15px;
+	position:relative;
+	width:80%;
+}
+/*--MENÚ--*/
+header{
+	margin: auto;
+	position:relative;
+	width: 80%;
+}
+nav{
+	background: #FFA30D;
+	display: block;
+	margin: auto;
+	padding: 0;
+	width: 50%;
+	height: 45px;
+}
+nav ul{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 45px;
+}
+nav li{
+	float: left;
+}
+nav a{
+	color: #FFF;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding: 0 15px;
+	line-height: 45px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #000;
+	background: #B7D068;
+}
+table{
+	text-align:left;
+	background-color:#CCFF66;
+	width:50%;
+	margin:auto;
+	border:2px #CC0000 dashed;
+}
+/* Con <td> le damos separación vertical entre los elementos */	
+td{
+	padding:5px;
+}
+h2{
+	color:#0033FF;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#cajaformulario, #muestraUsuarios{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+	border:1px solid #00F;
+	width: 50%;
+}
+#zonadatos, #muestradatos{
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+	width: 50%;
+	border:1px solid #F00;
+}
+input{
+	width:95%;
+}
+#Registrar, #grabar, #VerDatos, #Buscar, #Actualizar, #Eliminar, #VerUsuarios, #BtnLogin{
+	width: auto;
+	height: auto;
+	margin-right: 10px;
+	padding: 2px;
+	font-weight: bold;
+}
+#BtnLogin{
+	margin-left: 40%;
+}
+#cajaformulario, #muestradatos, #zonadatos{
+	display: true;
+}
+#cajaformulario{
+	display: true;
+}
+#Siguiente, #Anterior{
+	display: none;
+}
+/*****************************************
+    DISEÑO 640 px --> Si Pantalla <640px 
+******************************************/
+@media screen and (max-width: 640px){
+	#contenedor{
+		width: 98%;
+	}
+	nav{
+		width: 100%;
+		height: 40px;
+	}
+	nav a{
+		font-size: 17px;
+	}
+	header, table{
+		width: 100%;
+	}
+	#cajaformulario, #muestradatos, #zonadatos, #muestraUsuarios{
+		width: 97%;
+	}
+	#Registrar, #Buscar, #Actualizar, #Eliminar, #VerDatos, #grabar, #VerUsuarios{
+		font-size: 11px;
+		margin: 2px;
+	}
+	#BtnLogin{
+		font-size: 11px;
+	}
+}
